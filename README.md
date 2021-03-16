@@ -2,7 +2,7 @@
 
 ## Running Locally
 npm install  \
-npm run
+npm start
 
 ## Deploying 
 * Use npm run build to create an optimized build folder
