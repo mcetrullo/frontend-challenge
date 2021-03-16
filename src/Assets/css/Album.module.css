@@ -1,0 +1,39 @@
+/* For displaying albums on mobile */ 
+.album {
+  display: block;
+  padding-bottom: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.details {
+  font-family: "Gill Sans";
+  color: #463f3a;
+  height: 100px;
+  position: relative;
+  bottom: 1%;
+  display: block;
+}
+
+/* for displaying albums on desktop / devices with hover capability */
+@media screen and (hover: hover) and (min-width: 768px) {
+
+
+  .albumHover:hover .coverArt {
+    opacity: 0.1;
+  }
+
+  .albumHover:hover .details {
+    display: block;
+    height: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+  }
+
+  .details {
+    display: none;
+  }
+}

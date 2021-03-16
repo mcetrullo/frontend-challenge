@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  font-family: "Gill Sans";
+  display: block;
+  padding-top: 3px;
+}
+
+.title {
+  font-size: 60px;
+  color: #392F5A;
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 300;
+  color: #463f3a;
+}
