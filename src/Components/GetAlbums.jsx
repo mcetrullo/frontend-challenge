@@ -11,7 +11,6 @@ class GetAlbums extends React.Component {
       albumsData: [],
       visibleAlbums: [],
     };
-    this.getAlbums = this.getAlbums.bind(this);
     this.searchedAlbums = this.searchedAlbums.bind(this);
   }
 
@@ -31,9 +30,9 @@ class GetAlbums extends React.Component {
      to create object instances for each album to be displayed. It places the 
      newly created objects into an array that is returned */
   getAlbums(data) {
-    const extractAlbums = [];
+    let extractAlbums = [];
     if (data.length) {
-      data.map((album, i) =>
+      data.forEach((album, i) =>
         extractAlbums.push(
           <Album
             // indexes on album represent where within the API data each attribute is found
