@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import css from "../Assets/css/ScrollButton.module.css";
 
-/* This function takes advantage of React hooks to create a scroll to top button
+/* This function creates a scroll to top button
     that is only visible when a user has scrolled down the page some */
 
 const ScrollButton = () => {

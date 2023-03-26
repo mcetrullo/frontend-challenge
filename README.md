@@ -1,10 +1,15 @@
-# iTunes Top 100 Albums React App
+# iTunes Top Albums React App
+
+## About
+
+This project displays the current top iTunes albums, up to the first hundred available. Albums are displayed in a bootstrap grid for app responsivenes. Users can interact with the app by searching for albums, and on desktop by hovering over cover art for more information about a particular album. Albums are displayed in an endless scroll format, and a button is available to bring users back to the top. 
+
 
 ## Running Locally
-npm install  \
-npm start
 
-## Deploying 
-* Use npm run build to create an optimized build folder
-* Go to the AWS Console and create a publicly accessible S3 bucket with default settings
-* Upload the contents of the build folder to the newly created S3 bucket 
+You can view this project locally with the following commands
+
+<code> npm install </code>
+<code> npm start </code>
+
+

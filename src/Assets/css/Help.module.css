@@ -2,28 +2,21 @@
   display: none;
 }
 
-@media screen and (hover: hover) and (min-width: 768px) {
-    @keyframes fadeout {
-        from {opacity: 1;}
-        to {opacity: .15;}
-      }
-     
+@media screen and (min-width: 768px) {
+  
   .help {
     position: fixed;
     display: block;
-    padding:2.5px;
+    padding: 2.5px;
     top: 5%;
     left: 1%;
     width: 150px;
-    background-color: #392F5A;
+    background-color: #1f143d;
+    color:#fff;
     border: 1.5px solid;
     border-radius: 5px;
     text-align: center;
-    color: #f4f3ee;
-    animation-name: fadeout;
-    animation-duration: 3s;
-    animation-delay: 4s;
-    animation-fill-mode: forwards;
+
 
   }
   
